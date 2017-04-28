@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link rel="stylesheet" href="styles/reset.css">
+  <link rel="stylesheet" href="styles/style.css">
+  <title>Task_Internovus</title>
+</head>
+<body>
+  <div id="wrapper">
+
+    <section class="main-img">
+      <button>HTML button</button>
+      <p class="invisible">
+        This popup window opens on mouseover
+      </p>
+    </section>
+
+    <main class="form-section">
+      <form action="" method="get">
+        <section class="form-section-first">
+          <span></span>
+          <input type="text" name="full name" placeholder="Full Name" required>
+          <span></span>
+          <input type="text" name="email" placeholder="Email" required>
+        </section>
+        <section class="form-section-second">
+          <span></span>
+          <input type="text" name="code" placeholder="+000">
+          <input type="text" name="phone_number" placeholder="Phone Number" required>
+          <select name="select_country" required>
+            <option value="" hidden>Country</option>
+            <option>Bulgaria</option>
+            <option>Spain</option>
+          </select>
+          <span></span>
+        </section>
+        <section>
+          <button type="submit"><span>❯</span> Send</button>
+          <input type="checkbox" id="terms" required>
+          <label for="terms">I agree with the <a class="inlineSpan" href="#">Terms & condition</a></label>
+        </section>
+      </form>
+    </main>
+
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
